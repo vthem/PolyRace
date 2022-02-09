@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69762cc1327c8417889d4bfb692f4faf, type: 3}
+  m_Name: Rock_Group
+  m_EditorClassIdentifier: 
+  _objects:
+  - {fileID: 181800, guid: 1d844be5003b54e95a4c144898fc5118, type: 2}
+  - {fileID: 147804, guid: 3127ef6993ef841b187f928fd885740a, type: 2}
+  - {fileID: 156574, guid: 752604717bb2049748209ccf0e803d78, type: 2}
+  - {fileID: 194208, guid: a69c033911a9048a79bc2e4b27ec3ed7, type: 2}
+  - {fileID: 192572, guid: bc4fb58f12e5541a8afde7bc20fcd949, type: 2}
+  - {fileID: 150256, guid: 7285e93a208874e06b3ee494db64dc00, type: 2}
+  - {fileID: 101962, guid: d666d14e5899d4cf6b790b5445d09abe, type: 2}
+  - {fileID: 182206, guid: e879bf3603e6d4e538dfdab19199a690, type: 2}
+  - {fileID: 192764, guid: 3561f7b4b03084a6286a3a0daf8dfb39, type: 2}
+  - {fileID: 110008, guid: b96e38ee005d642e0a17e8765c4985ef, type: 2}

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d56d977df94ed49dd8530e9265876b64, type: 3}
+  m_Name: CommonProperties
+  m_EditorClassIdentifier: 
+  _groundSmokePrefab: {fileID: 100000, guid: 8fff23ab90f1b4fdc8798c3c09390bdc, type: 2}
+  _hoverStabilizatorSpeed: .5
+  _hoverStabilizatorMaxSpeed: 50
+  _pitchStabilizatorSpeed: 3
+  _hoverHeight: 2
+  _ghostDevMaterial: {fileID: 2100000, guid: 931de51051a1c5e428d96845c9e4ff34, type: 2}
+  _ghostRemoteMaterial: {fileID: 2100000, guid: fa453811208662642a2e831e2f8a9d91,
+    type: 2}
+  _ghostSelfMaterial: {fileID: 2100000, guid: 042ab5d5007f5432b8fe8b8c53ba0a50, type: 2}
+  _stopDrag: 1
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  _terrainHeightLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  _hitPenaltyDuration: 1.5
+  _hitPenaltyInterpolation:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: .463760287
+      outSlope: .180209443
+      tangentMode: 1
+    - time: .759049654
+      value: .0699464679
+      inSlope: .245309755
+      outSlope: .600349486
+      tangentMode: 1
+    - time: 1
+      value: 1
+      inSlope: -0
+      outSlope: .421649545
+      tangentMode: 1
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  _probeDistance: 50
+  _probeHeight: 150
+  _hardExplosionPrefab: {fileID: 143366, guid: 1350f726252ca4805b6bb10bd8d5d9e4, type: 2}
+  _dodgeAcceleration: 100
+  _dodgeDuration: .5
+  _maxXVelocity: 150
+  _maxRoll: 60
+  _rollSpeed: 20
+  _minTrailSpeed: 30
+  _defaultColor: {fileID: 2100000, guid: 0fd1048b105d8864e96ca9e59384cdaa, type: 2}

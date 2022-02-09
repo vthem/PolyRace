@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69762cc1327c8417889d4bfb692f4faf, type: 3}
+  m_Name: Rock_Snow_Group
+  m_EditorClassIdentifier: 
+  _objects:
+  - {fileID: 131838, guid: f595dcdb0bce2436b82d009d4ea514f3, type: 2}
+  - {fileID: 197428, guid: 370cc5607411c408390363d16002120f, type: 2}
+  - {fileID: 165726, guid: b20ba4cb14d964e8a9e76aee67a8df8c, type: 2}
+  - {fileID: 153808, guid: 0348834521e6741faaf8dd1d31868946, type: 2}
+  - {fileID: 120128, guid: 9ac508f407ec94773b39275355e3a36d, type: 2}
+  - {fileID: 172068, guid: bb48bda96ade6462b90e6889e95ff0a7, type: 2}
+  - {fileID: 122612, guid: e723600905b3d435ca9b4d5d96c37368, type: 2}
+  - {fileID: 181784, guid: 0710e75017e3449fe8e1248e1e1ac9e0, type: 2}
+  - {fileID: 194392, guid: 6ccdf0ae43d7542fca7a2a115555d286, type: 2}
+  - {fileID: 193512, guid: b5b3f9a3400b54bb1b9fc38dc3e831c1, type: 2}

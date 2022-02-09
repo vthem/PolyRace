@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593a867acb36045c3856208c5768a0c2, type: 3}
+  m_Name: Continental_Color
+  m_EditorClassIdentifier: 
+  _defaultColor: {r: .500432551, g: .764705896, b: .500432551, a: 1}
+  _colorBlenders:
+  - _color: {r: .882352948, g: .808553219, b: .700692058, a: 1}
+    _noise: {fileID: 11400000, guid: b1171a078b86842fd87253800a2a5198, type: 2}
+    _attenuation: .0729999989
+    _minHeight: -1
+    _maxHeight: -1
+  - _color: {r: .244827583, g: .159582689, b: .0792089254, a: 1}
+    _noise: {fileID: 11400000, guid: 9866e41711043430094389cb10743fd7, type: 2}
+    _attenuation: .0960000008
+    _minHeight: -1
+    _maxHeight: -1
+  - _color: {r: 0, g: 1, b: 0, a: 1}
+    _noise: {fileID: 11400000, guid: f078b53e76b1d48ac9c920d2b238a73f, type: 2}
+    _attenuation: .374000013
+    _minHeight: 25
+    _maxHeight: 50
+  - _color: {r: 1, g: 1, b: 1, a: 1}
+    _noise: {fileID: 11400000, guid: b1171a078b86842fd87253800a2a5198, type: 2}
+    _attenuation: .142000005
+    _minHeight: 200
+    _maxHeight: -1

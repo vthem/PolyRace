@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd8b14249ca9f40b79f2766420b58b9b, type: 3}
+  m_Name: Default_Clouds
+  m_EditorClassIdentifier: 
+  _enable: 1
+  _prefabs: {fileID: 11400000, guid: bcfb60db52c2b4b7f956758fc7a7ee58, type: 2}
+  _minHeight: 1
+  _maxHeight: 4
+  _step: 200
+  _minScale: 0
+  _maxScale: 2
+  _rotation: {x: 10, y: 180, z: 10}
+  _randomRadius: 100

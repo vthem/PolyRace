@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b72d43e6dd94c4d06bd27452c5a409c3, type: 3}
+  m_Name: ArcticEasy_Scenery
+  m_EditorClassIdentifier: 
+  _enable: 1
+  _prefabGroups:
+  - _prefabGroup: {fileID: 11400000, guid: f8d30d72c526d49eca77a9f7765abe97, type: 2}
+    _probability:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .299999952
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    _minScale: 0
+    _maxScale: 1
+    _rotation: {x: 10, y: 180, z: 10}
+  - _prefabGroup: {fileID: 11400000, guid: ef719bb5f757a42f38635fc19e07298d, type: 2}
+    _probability:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .199999988
+        inSlope: -.612007558
+        outSlope: -.612007558
+        tangentMode: 0
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    _minScale: .5
+    _maxScale: 1
+    _rotation: {x: 10, y: 180, z: 10}
+  - _prefabGroup: {fileID: 11400000, guid: 05b4fa2bcebee4b85889f845a3e07325, type: 2}
+    _probability:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .399999976
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: 1
+        value: .799999952
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    _minScale: 0
+    _maxScale: .800000012
+    _rotation: {x: 20, y: 180, z: 20}
+  _randomRadius: 35
+  _step: 40
+  _probability: .5
+  _sideArrowPrefab: {fileID: 142716, guid: c32a487ffcf3c4698bb6bf7c1fefbad2, type: 2}

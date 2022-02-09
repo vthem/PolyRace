@@ -1,0 +1,22 @@
+{
+    "name": "PolyRace.Game",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5cddb16e5af00994ead5bd8e503d8f1d",
+        "GUID:7eb5b6fc41da439429e4e8c26aff75e8",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:d97228874f57b3041b3e99a8306b3186",
+        "GUID:7a6b32e90db9aba4e98affdca5105469",
+        "GUID:37d8340eaa053d3478bed5c7b45ff5da",
+        "GUID:60b8e5a462ddafe4eae93fa70842f82f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

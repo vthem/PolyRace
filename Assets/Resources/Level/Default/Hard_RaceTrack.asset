@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6b01daba118406aa01fdc7e5b77dcb, type: 3}
+  m_Name: Hard_RaceTrack
+  m_EditorClassIdentifier: 
+  _arrowPrefab: {fileID: 114856, guid: d83e0aace85444a20a3214e9dba26206, type: 2}
+  _startArchPrefab: {fileID: 162176, guid: 69304800713f24b57b04ffd18ef2dd9a, type: 2}
+  _endArchPrefab: {fileID: 106798, guid: 145e0e6c4c0fe4804b0a661bc80ed431, type: 2}
+  _bonusSlotPrefab: {fileID: 156202, guid: 2fdbb6faa3f06492fa6c8de49f535cf9, type: 2}
+  _minArrowDistance: 20
+  _bezierTangentLength: 30
+  _weightReduceTolerance: 10
+  _averageSpeed: 920
+  _startBonusTimer: 20
+  _bonusTimer: 8
+  _arrowOverlappingSize: 20
+  _arrowOverlappingSquare: 3

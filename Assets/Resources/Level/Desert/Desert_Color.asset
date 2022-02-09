@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593a867acb36045c3856208c5768a0c2, type: 3}
+  m_Name: Desert_Color
+  m_EditorClassIdentifier: 
+  _defaultColor: {r: .972549021, g: .87843138, b: .486274511, a: 1}
+  _colorBlenders:
+  - _color: {r: .882352948, g: .411764711, b: .333333343, a: 0}
+    _noise: {fileID: 11400000, guid: e0b34f6685e5740e680d6f076ec38bcc, type: 2}
+    _attenuation: .150000006
+    _minHeight: -1
+    _maxHeight: -1
+  - _color: {r: .831034482, g: .815218925, b: .696602464, a: 0}
+    _noise: {fileID: 11400000, guid: 483164c5779d94073ab95d16589af3a5, type: 2}
+    _attenuation: .352999985
+    _minHeight: -1
+    _maxHeight: -1
+  - _color: {r: .450980395, g: .41568628, b: .188235298, a: 0}
+    _noise: {fileID: 11400000, guid: 0312dec40bd104b81aad92e46c460a5c, type: 2}
+    _attenuation: .300999999
+    _minHeight: -1
+    _maxHeight: -1

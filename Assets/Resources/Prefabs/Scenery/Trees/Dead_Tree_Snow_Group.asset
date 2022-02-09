@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69762cc1327c8417889d4bfb692f4faf, type: 3}
+  m_Name: Dead_Tree_Snow_Group
+  m_EditorClassIdentifier: 
+  _objects:
+  - {fileID: 169230, guid: e1f7115696a3343a68265c200974c6e5, type: 2}
+  - {fileID: 158264, guid: 21d3cf5a285964dc2a1642a180f8ec17, type: 2}
+  - {fileID: 154676, guid: a312b61783e654d2898888b7d0e74364, type: 2}
+  - {fileID: 110422, guid: e9fd05a3d3d38450ca1ad96ed7bafd6d, type: 2}
+  - {fileID: 121186, guid: bc38c76ba83d44e1d9c404b7451d1708, type: 2}

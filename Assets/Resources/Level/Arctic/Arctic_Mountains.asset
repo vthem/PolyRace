@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38122f873dcc84bcb8b897ba6ffb7507, type: 3}
+  m_Name: Arctic_Mountains
+  m_EditorClassIdentifier: 
+  _enable: 1
+  _meshes:
+  - {fileID: 4300000, guid: 7e3ffc7b1fc8245918564e83527bfef9, type: 2}
+  - {fileID: 4300000, guid: b79b81544eaf548af89d92f39093d237, type: 2}
+  - {fileID: 4300000, guid: 8744a5415f87f479b9d0f70a6253f2fd, type: 2}
+  - {fileID: 4300000, guid: cbd9a194a60204af78de48d9e401d505, type: 2}
+  - {fileID: 4300000, guid: bcaeaa7281c6b4f8982c39493251674f, type: 2}
+  - {fileID: 4300000, guid: 3b3e60f3aa06f42beaa5df33446c9fff, type: 2}
+  - {fileID: 4300000, guid: 13b1d95f8ac734270a7d8ac0c7bdf4a1, type: 2}
+  - {fileID: 4300000, guid: aacf4bc6e29a74812b23702f4812246c, type: 2}
+  _xScale: 480
+  _zScale: 480
+  yMinScale: 400
+  yMaxScale: 600
+  _material: {fileID: 2100000, guid: cdbb8f6cc7dce9e4d9dd90d46e8405ba, type: 2}

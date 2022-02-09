@@ -1,0 +1,413 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4309622292390879007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4309622292390879004}
+  - component: {fileID: 4309622292390879005}
+  - component: {fileID: 4309622292390879006}
+  m_Layer: 0
+  m_Name: GameInputSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4309622292390879004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309622292390879007}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4309622292390879005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309622292390879007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e8a7b9dd1df3274ebcba286eb313bdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  steerAction:
+    m_Name: Steer
+    m_Type: 0
+    m_ExpectedControlType: Axis
+    m_Id: c79e535c-2c24-4aeb-bf08-4f1341678eea
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 1D Axis
+      m_Id: 7c59e937-ba4d-4df6-8d53-485520a626b4
+      m_Path: 1DAxis
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Steer
+      m_Flags: 4
+    - m_Name: negative
+      m_Id: e766d5fa-e679-433e-b54b-2de2c1ab5620
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Steer
+      m_Flags: 8
+    - m_Name: positive
+      m_Id: 7bf9b81a-e2ba-4ba8-be80-f694fd439227
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Steer
+      m_Flags: 8
+    - m_Name: 
+      m_Id: f5a11507-8266-4864-87ce-f8c2c6948244
+      m_Path: <Gamepad>/leftStick/x
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Steer
+      m_Flags: 0
+  accelerateAction:
+    m_Name: Accelerate
+    m_Type: 0
+    m_ExpectedControlType: Button
+    m_Id: 402ef871-4f15-4e78-8534-86fa28f18794
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: b71b1f81-3f24-4656-b5d8-23cef9382943
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Accelerate
+      m_Flags: 0
+  boostAction:
+    m_Name: Boost
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: ee3d99c3-6dd3-4369-8ba2-1fb1cf0e17d1
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 1e16bc07-d9f8-45f9-8609-7dc96c98baba
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Boost
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 52e8fe8a-d0b5-4da6-a995-1999388a2eae
+      m_Path: <Gamepad>/buttonSouth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Boost
+      m_Flags: 0
+  brakeAction:
+    m_Name: Brake
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 3b20ba0d-4af5-4356-b310-7f57d252ea9e
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: a3d1ff72-dc0e-42d9-8aea-2281e1d9b5d2
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Brake
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 4a6a023a-6a4d-4ec2-b424-e8b6b19672fe
+      m_Path: <Gamepad>/buttonEast
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Brake
+      m_Flags: 0
+  nextCameraTypeAction:
+    m_Name: Next Camera Type
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 4ccbec02-5d7c-4136-9815-00e2d69ab3ff
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 5813563f-a50b-49c8-88fd-30037364b7fa
+      m_Path: <Keyboard>/c
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Next Camera Type
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 3b56555e-feda-48c7-9955-ba851e1701b0
+      m_Path: <Gamepad>/dpad/up
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Next Camera Type
+      m_Flags: 0
+  previousCameraTypeAction:
+    m_Name: Previous Camera Type
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 209220fb-09a2-4884-8316-0ce3e19fb419
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: Button With One Modifier
+      m_Id: 65761b06-2c61-4083-af11-ba472bdb4190
+      m_Path: ButtonWithOneModifier
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Previous Camera Type
+      m_Flags: 4
+    - m_Name: modifier
+      m_Id: f6c1c6ef-3bea-43ee-8105-71f6216e52f4
+      m_Path: <Keyboard>/leftShift
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Previous Camera Type
+      m_Flags: 8
+    - m_Name: button
+      m_Id: 383796c2-f19d-4204-9081-179489d18d9f
+      m_Path: <Keyboard>/c
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Previous Camera Type
+      m_Flags: 8
+    - m_Name: 
+      m_Id: e873db10-bda6-4ba1-b378-2339173df91a
+      m_Path: <Gamepad>/dpad/down
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Previous Camera Type
+      m_Flags: 0
+  nextCameraViewAction:
+    m_Name: Next Camera View
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 2f98d508-6b79-41e6-9c10-16e7b1e1a1a3
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 80e6a26f-36cf-409d-81b9-46dd71e01311
+      m_Path: <Keyboard>/v
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Next Camera View
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 29277fb9-2835-4e0f-ab08-d21083cfd81b
+      m_Path: <Gamepad>/dpad/right
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Next Camera View
+      m_Flags: 0
+  previousCameraViewAction:
+    m_Name: Previous Camera View
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 4b43fac9-2f7f-4216-82bb-b1aa40b680b3
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: Button With One Modifier
+      m_Id: 1a1e1914-cb2a-45ff-8f76-1d3648da0a4f
+      m_Path: ButtonWithOneModifier
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Previous Camera View
+      m_Flags: 4
+    - m_Name: modifier
+      m_Id: 9d2036ba-edb0-4cb9-87e8-7a54e70eece4
+      m_Path: <Keyboard>/leftShift
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Previous Camera View
+      m_Flags: 8
+    - m_Name: button
+      m_Id: 25b5b0c4-c9f3-445f-bb83-764cf8cce613
+      m_Path: <Keyboard>/v
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Previous Camera View
+      m_Flags: 8
+    - m_Name: 
+      m_Id: 20396b24-fd2e-4fba-926d-dfa48429f9cb
+      m_Path: <Gamepad>/dpad/left
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Previous Camera View
+      m_Flags: 0
+  pauseToggleAction:
+    m_Name: Pause Toggle
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 87d186fc-1b63-4b9c-b91c-8e5f95080097
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 103d33bb-d08b-4547-bf21-9ca557ee7c68
+      m_Path: <Keyboard>/escape
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Pause Toggle
+      m_Flags: 0
+    - m_Name: 
+      m_Id: b5eddc2c-a605-4a05-8009-f82a740b381d
+      m_Path: <Gamepad>/start
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Pause Toggle
+      m_Flags: 0
+  quickRestartAction:
+    m_Name: Quick Restart
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 99075874-4ebe-494c-9b2a-54b4c120b714
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: c376eae9-6731-4447-a705-d6faa25f41b7
+      m_Path: <Keyboard>/backspace
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Quick Restart
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 7f2316c7-59a2-4ad1-bafd-a99f78596d44
+      m_Path: <Gamepad>/select
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Quick Restart
+      m_Flags: 0
+--- !u!114 &4309622292390879006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309622292390879007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: b7c1188f986c30c40846375fa1a22ca3,
+    type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 77c6bec8-fb5e-40d4-a5b8-f74b148e81c0
+    m_ActionName: Player/Move[/XInputControllerWindows/leftStick,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 54ca0c3d-e5e3-44f0-832e-fec7e7d41ada
+    m_ActionName: Player/Look[/XInputControllerWindows/rightStick,/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fb02b843-faa5-47b8-8db1-49bfccecf96c
+    m_ActionName: Player/Fire[/XInputControllerWindows/rightTrigger,/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a4432c95-428d-432a-96ed-306987465db2
+    m_ActionName: Player/Steer[/Keyboard/leftArrow,/Keyboard/rightArrow,/XInputControllerWindows/leftStick/x]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 717189a1-c3a5-4e68-944e-4fa7d939dcac
+    m_ActionName: UI/Navigate[/XInputControllerWindows/leftStick/up,/XInputControllerWindows/rightStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/rightStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/rightStick/left,/XInputControllerWindows/leftStick/right,/XInputControllerWindows/rightStick/right,/XInputControllerWindows/dpad,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f4525dd8-21b1-4b58-9cb4-2d1407ceb405
+    m_ActionName: UI/Submit[/Keyboard/enter,/XInputControllerWindows/buttonSouth]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 025110f6-4cf4-4809-a8dd-c9603ecd812e
+    m_ActionName: UI/Cancel[/Keyboard/escape,/XInputControllerWindows/buttonEast]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5d333493-882a-44a8-ac12-4e61fa48576f
+    m_ActionName: UI/Point[/Mouse/position]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2cedc942-96bf-475f-a569-1ef4e1097e51
+    m_ActionName: UI/Click[/Mouse/leftButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 187f2004-7dd5-45fd-9ac8-def2c93f5a92
+    m_ActionName: UI/ScrollWheel[/Mouse/scroll]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: bd1410a9-49cb-4020-8d76-7af7f5c0200b
+    m_ActionName: UI/MiddleClick[/Mouse/middleButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5ae67c59-6e0e-4095-ae80-2b061498c7d1
+    m_ActionName: UI/RightClick[/Mouse/rightButton]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 30f03170-167d-42e1-a3af-2430bc281680
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f159246e-3b44-4ab1-bb24-2a3bb7462910
+    m_ActionName: UI/TrackedDeviceOrientation
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}

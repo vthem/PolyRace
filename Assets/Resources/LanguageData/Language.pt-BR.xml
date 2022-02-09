@@ -1,0 +1,850 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="About" xml:space="preserve">
+		<value>Sobre</value>
+	</data>
+	<data name="Acceleration" xml:space="preserve">
+		<value>Aceleração</value>
+	</data>
+	<data name="AchArtist" xml:space="preserve">
+		<value>Criar 10 desafios</value>
+	</data>
+	<data name="AchBoss" xml:space="preserve">
+		<value>Criar 100 desafios</value>
+	</data>
+	<data name="AchBullitt" xml:space="preserve">
+		<value>Terminar uma corrida contra-relógio/fácil sem bater, sem frear e com o turbo sempre ativo</value>
+	</data>
+	<data name="AchChampion" xml:space="preserve">
+		<value>Estar no top 10 na Corrida do dia</value>
+	</data>
+	<data name="AchFangio" xml:space="preserve">
+		<value>Terminar uma corrida contra-relógio/normal sem bater, frear e com o turbo sempre ativo</value>
+	</data>
+	<data name="AchGod" xml:space="preserve">
+		<value>Vencer a Corrida do dia</value>
+	</data>
+	<data name="AchGoodStart" xml:space="preserve">
+		<value>Vencer 1 desafio</value>
+	</data>
+	<data name="AchHobbyist" xml:space="preserve">
+		<value>Criar 1 desafio</value>
+	</data>
+	<data name="AchImpossible" xml:space="preserve">
+		<value>Terminar uma corrida contra-relógio/extrema sem bater, sem frear</value>
+	</data>
+	<data name="AchImpressive" xml:space="preserve">
+		<value>Vencer 100 desafios</value>
+	</data>
+	<data name="AchIndustry" xml:space="preserve">
+		<value>Criar 50 desafios</value>
+	</data>
+	<data name="AchInteresting" xml:space="preserve">
+		<value>Vencer 50 desafios</value>
+	</data>
+	<data name="AchLegend" xml:space="preserve">
+		<value>Estar no top 3 na Corrida do dia</value>
+	</data>
+	<data name="AchLikeTheGame" xml:space="preserve">
+		<value>Conseguir cinco estrelas em todas as missões</value>
+	</data>
+	<data name="AchNotBad" xml:space="preserve">
+		<value>Vencer 10 desafios</value>
+	</data>
+	<data name="AchThankYou" xml:space="preserve">
+		<value>Terminar todas as missões</value>
+	</data>
+	<data name="AchWhoAreYou" xml:space="preserve">
+		<value>Terminar uma corrida contra-relógio/difícil sem bater, frear</value>
+	</data>
+	<data name="AchYouWantAMedal" xml:space="preserve">
+		<value>Vencer 20 desafios</value>
+	</data>
+	<data name="Add" xml:space="preserve">
+		<value>Adicionar</value>
+	</data>
+	<data name="All" xml:space="preserve">
+		<value>Tudo</value>
+	</data>
+	<data name="AnyKeyStart" xml:space="preserve">
+		<value>Pulsar qualquer tecla para começar</value>
+	</data>
+	<data name="Apply" xml:space="preserve">
+		<value>Aplicar</value>
+	</data>
+	<data name="ApplyVideoSettings" xml:space="preserve">
+		<value>Aplicar configurações de vídeo</value>
+	</data>
+	<data name="Arctic" xml:space="preserve">
+		<value>Ártico</value>
+	</data>
+	<data name="Audio" xml:space="preserve">
+		<value>Som</value>
+	</data>
+	<data name="AudioVideoLocalization" xml:space="preserve">
+		<value>Som
+Vídeo
+Idioma</value>
+	</data>
+	<data name="Automatic" xml:space="preserve">
+		<value>Automático</value>
+	</data>
+	<data name="Back" xml:space="preserve">
+		<value>Retornar</value>
+	</data>
+	<data name="Brake" xml:space="preserve">
+		<value>Freio</value>
+	</data>
+	<data name="Cancel" xml:space="preserve">
+		<value>Cancelar</value>
+	</data>
+	<data name="Challenge" xml:space="preserve">
+		<value>Desafio</value>
+	</data>
+	<data name="ChallengeAlreadyPlayedError" xml:space="preserve">
+		<value>Você já jogou este desafio. Você não pode jogar um desafio duas vezes.</value>
+	</data>
+	<data name="ChallengeButton" xml:space="preserve">
+		<value>Desafio</value>
+	</data>
+	<data name="ChallengeCodeHelp" xml:space="preserve">
+		<value>Digite um código de desafio</value>
+	</data>
+	<data name="ChallengeDescription" xml:space="preserve">
+		<value>Descrição do desafio</value>
+	</data>
+	<data name="ChallengeFailed" xml:space="preserve">
+		<value>Desafio não superado</value>
+	</data>
+	<data name="ChallengeFindHelp" xml:space="preserve">
+		<value>Selecione o filtro do desafio e pressione Procurar.</value>
+	</data>
+	<data name="ChallengeGoal" xml:space="preserve">
+		<value>Objetivo do desafio:</value>
+	</data>
+	<data name="ChallengeHelpPopup1" xml:space="preserve">
+		<value>Você tem 10 minutos para dar o seu melhor.</value>
+	</data>
+	<data name="ChallengeHelpPopup2" xml:space="preserve">
+		<value>Você pode compartilhar o desafio no final da corrida ou quando terminar o tempo.</value>
+	</data>
+	<data name="ChallengeHelpPopup3" xml:space="preserve">
+		<value>Apenas sua melhor performance é compartilhada.</value>
+	</data>
+	<data name="ChallengeMode" xml:space="preserve">
+		<value>Modalidade Desafio</value>
+	</data>
+	<data name="ChallengeNoFound" xml:space="preserve">
+		<value>Nenhum desafio encontrado.</value>
+	</data>
+	<data name="ChallengePlayHelpText1" xml:space="preserve">
+		<value />
+	</data>
+	<data name="ChallengePlayHelpText2" xml:space="preserve">
+		<value />
+	</data>
+	<data name="ChallengeRemainingTimeNotice" xml:space="preserve">
+		<value>Tempo restante</value>
+	</data>
+	<data name="ChallengeStartButton" xml:space="preserve">
+		<value>Começar o desafio</value>
+	</data>
+	<data name="ChallengeSucceed" xml:space="preserve">
+		<value>Desafio superado</value>
+	</data>
+	<data name="Code" xml:space="preserve">
+		<value>Código:</value>
+	</data>
+	<data name="ColorBlack" xml:space="preserve">
+		<value>Preto</value>
+	</data>
+	<data name="ColorCyan" xml:space="preserve">
+		<value>Ciano</value>
+	</data>
+	<data name="ColorGreen" xml:space="preserve">
+		<value>Verde</value>
+	</data>
+	<data name="ColorGrey" xml:space="preserve">
+		<value>Cinza</value>
+	</data>
+	<data name="ColorOrange" xml:space="preserve">
+		<value>Alaranjado</value>
+	</data>
+	<data name="ColorYellow" xml:space="preserve">
+		<value>Amarelo</value>
+	</data>
+	<data name="Confirm" xml:space="preserve">
+		<value>Confirmar</value>
+	</data>
+	<data name="Continental" xml:space="preserve">
+		<value>Continental</value>
+	</data>
+	<data name="ControlActionColumn" xml:space="preserve">
+		<value>Ações</value>
+	</data>
+	<data name="ControlBoost" xml:space="preserve">
+		<value>Turbo</value>
+	</data>
+	<data name="ControlBrake" xml:space="preserve">
+		<value>Freio</value>
+	</data>
+	<data name="ControlCameraType" xml:space="preserve">
+		<value>Tipo de câmera</value>
+	</data>
+	<data name="ControlCameraView" xml:space="preserve">
+		<value>Vista da câmera</value>
+	</data>
+	<data name="ControlControllerColumn" xml:space="preserve">
+		<value>Controles</value>
+	</data>
+	<data name="ControlDodge" xml:space="preserve">
+		<value>Desviar</value>
+	</data>
+	<data name="ControlKeyboardColumn" xml:space="preserve">
+		<value>Teclado</value>
+	</data>
+	<data name="ControlNextCameraType" xml:space="preserve">
+		<value>Tipo de câmera seguinte</value>
+	</data>
+	<data name="ControlNextCameraView" xml:space="preserve">
+		<value>Vista da câmera seguinte</value>
+	</data>
+	<data name="ControlPauseToggle" xml:space="preserve">
+		<value>Alternância de pausa</value>
+	</data>
+	<data name="ControlPreviousCameraType" xml:space="preserve">
+		<value>Tipo de câmera anterior</value>
+	</data>
+	<data name="ControlPreviousCameraView" xml:space="preserve">
+		<value>Vista da câmera anterior</value>
+	</data>
+	<data name="ControlQuickRestart" xml:space="preserve">
+		<value>Reinicialização rápida</value>
+	</data>
+	<data name="ControlSettings" xml:space="preserve">
+		<value>Controles</value>
+	</data>
+	<data name="ControlSteer" xml:space="preserve">
+		<value>Eixo de direção</value>
+	</data>
+	<data name="ControlSteerLeft" xml:space="preserve">
+		<value>Esterçar para a esquerda</value>
+	</data>
+	<data name="ControlSteerRight" xml:space="preserve">
+		<value>Esterçar para a direita</value>
+	</data>
+	<data name="ControlUICancel" xml:space="preserve">
+		<value>Cancelar</value>
+	</data>
+	<data name="ControlUIDown" xml:space="preserve">
+		<value>Para baixo</value>
+	</data>
+	<data name="ControlUIHorizontalNavigation" xml:space="preserve">
+		<value>Eixo horizontal</value>
+	</data>
+	<data name="ControlUILeft" xml:space="preserve">
+		<value>Esquerda</value>
+	</data>
+	<data name="ControlUIRight" xml:space="preserve">
+		<value>Direita</value>
+	</data>
+	<data name="ControlUISubmit" xml:space="preserve">
+		<value>Validar</value>
+	</data>
+	<data name="ControlUISubmitSecondary" xml:space="preserve">
+		<value>Validar secundário</value>
+	</data>
+	<data name="ControlUIUp" xml:space="preserve">
+		<value>Para cima</value>
+	</data>
+	<data name="ControlUIVerticalNavigation" xml:space="preserve">
+		<value>Eixo vertical</value>
+	</data>
+	<data name="CreateChallengeButton" xml:space="preserve">
+		<value>Criar</value>
+	</data>
+	<data name="CreateChallengeHelp" xml:space="preserve">
+		<value>Selecione seu desafio, corra nele e depois compartilhe-o com o mundo.</value>
+	</data>
+	<data name="CreateChallengeTitle" xml:space="preserve">
+		<value>Criar desafio</value>
+	</data>
+	<data name="Creator" xml:space="preserve">
+		<value>Criador:</value>
+	</data>
+	<data name="DefaultError" xml:space="preserve">
+		<value>Desculpe:) Ocorreu um erro. Por favor, tente outra vez mais tarde.</value>
+	</data>
+	<data name="Desert" xml:space="preserve">
+		<value>Desértico</value>
+	</data>
+	<data name="Difficulty" xml:space="preserve">
+		<value>Dificuldade</value>
+	</data>
+	<data name="Distance" xml:space="preserve">
+		<value>Distância</value>
+	</data>
+	<data name="Easy" xml:space="preserve">
+		<value>Fácil</value>
+	</data>
+	<data name="ElementAssignmentPrePollingWindowMessage" xml:space="preserve">
+		<value>Solte e centre todos os eixos</value>
+	</data>
+	<data name="Endless" xml:space="preserve">
+		<value>Sem limites</value>
+	</data>
+	<data name="EndOfRace" xml:space="preserve">
+		<value>Fim da corrida</value>
+	</data>
+	<data name="EnterChallengeShortCode" xml:space="preserve">
+		<value>Digite um código do desafio no campo abaixo</value>
+	</data>
+	<data name="ExitLeaderboard" xml:space="preserve">
+		<value>Sair da classificação</value>
+	</data>
+	<data name="ExitOptions" xml:space="preserve">
+		<value>Sair das opções</value>
+	</data>
+	<data name="ExitReplay" xml:space="preserve">
+		<value>Sair da repetição</value>
+	</data>
+	<data name="Extreme" xml:space="preserve">
+		<value>Extrema</value>
+	</data>
+	<data name="Filters" xml:space="preserve">
+		<value>Filtros</value>
+	</data>
+	<data name="FindChallengeButton" xml:space="preserve">
+		<value>Encontrar</value>
+	</data>
+	<data name="FindChallengeTitle" xml:space="preserve">
+		<value>Encontrar desafio</value>
+	</data>
+	<data name="Fullscreen" xml:space="preserve">
+		<value>Tela cheia</value>
+	</data>
+	<data name="Gain" xml:space="preserve">
+		<value>Progresso</value>
+	</data>
+	<data name="GamePaused" xml:space="preserve">
+		<value>Jogo em pausa</value>
+	</data>
+	<data name="Games" xml:space="preserve">
+		<value>Jogo(s)</value>
+	</data>
+	<data name="GamesChallengeDescription" xml:space="preserve">
+		<value>Jogo(s):</value>
+	</data>
+	<data name="Hard" xml:space="preserve">
+		<value>Difícil</value>
+	</data>
+	<data name="Hello" xml:space="preserve">
+		<value>Oi, {0}:</value>
+	</data>
+	<data name="Hovercraft" xml:space="preserve">
+		<value>Aerodeslizador</value>
+	</data>
+	<data name="HovercraftSelection" xml:space="preserve">
+		<value>Seleção do aerodeslizador</value>
+	</data>
+	<data name="JoystickElementAssignmentPollingWindowMessage" xml:space="preserve">
+		<value>Pulse em um botão para atribuí-lo para {0}.</value>
+	</data>
+	<data name="KeepVideoSettings" xml:space="preserve">
+		<value>Manter as configurações do vídeo?</value>
+	</data>
+	<data name="KeyboardElementAssignmentPollingWindowMessage" xml:space="preserve">
+		<value>Pulse em uma tecla para atribuí-lo para {0}.</value>
+	</data>
+	<data name="LanguageLabel" xml:space="preserve">
+		<value>Idioma</value>
+	</data>
+	<data name="LanguageName" xml:space="preserve">
+		<value>Português (Brasil)</value>
+	</data>
+	<data name="Leaderboard" xml:space="preserve">
+		<value>Classificação</value>
+	</data>
+	<data name="LeaderboardNameROTDToday" xml:space="preserve">
+		<value>Corrida do dia - Hoje</value>
+	</data>
+	<data name="LeaderboardNameROTDYesterday" xml:space="preserve">
+		<value>Corrida do dia - Ontem</value>
+	</data>
+	<data name="Level" xml:space="preserve">
+		<value>Circuito</value>
+	</data>
+	<data name="LevelSelection" xml:space="preserve">
+		<value>Seleção do circuito</value>
+	</data>
+	<data name="LocalId" xml:space="preserve">
+		<value>pt-BR</value>
+	</data>
+	<data name="Localization" xml:space="preserve">
+		<value>Idioma</value>
+	</data>
+	<data name="MainMenu" xml:space="preserve">
+		<value>Menu principal</value>
+	</data>
+	<data name="MainMenuHelp" xml:space="preserve">
+		<value>Selecione uma modalidade de jogo.</value>
+	</data>
+	<data name="MasterVolume" xml:space="preserve">
+		<value>Volume principal</value>
+	</data>
+	<data name="MetricAvgSpeed" xml:space="preserve">
+		<value>Velocidade média</value>
+	</data>
+	<data name="MetricDistance" xml:space="preserve">
+		<value>Distância</value>
+	</data>
+	<data name="MetricElapsedTime" xml:space="preserve">
+		<value>Tempo</value>
+	</data>
+	<data name="MetricEnergyConsumption" xml:space="preserve">
+		<value>Consumo</value>
+	</data>
+	<data name="MetricHitNumber" xml:space="preserve">
+		<value>Batidas</value>
+	</data>
+	<data name="MetricMaxSpeed" xml:space="preserve">
+		<value>Velocidade máxima</value>
+	</data>
+	<data name="MissionButton" xml:space="preserve">
+		<value>Missão</value>
+	</data>
+	<data name="MissionGoal" xml:space="preserve">
+		<value>Objetivo da missão:</value>
+	</data>
+	<data name="MissionStarCollected" xml:space="preserve">
+		<value>Você coletou {0} estrela(s).</value>
+	</data>
+	<data name="MissionTitle" xml:space="preserve">
+		<value>Modalidade missão</value>
+	</data>
+	<data name="MissionUnlockCount" xml:space="preserve">
+		<value>Consiga mais {0} estrela(s) para desbloquear a próxima missão.</value>
+	</data>
+	<data name="Mode" xml:space="preserve">
+		<value>Modalidade</value>
+	</data>
+	<data name="ModeHelpChallenge" xml:space="preserve">
+		<value>Um desafio é a sombra de outro jogador + circuito. Crie e compartilhe os desafios com outros jogadores. Dispute os desafios com outros jogadores.</value>
+	</data>
+	<data name="ModeHelpMission" xml:space="preserve">
+		<value>Uma missão é a sombra de outro jogador + o circuito registrado pelo desenvolvedor.</value>
+	</data>
+	<data name="ModeHelpROTD" xml:space="preserve">
+		<value>Todos os dias há um circuito internacional exclusivo. Enfrente a sombra do outro jogador e suba nos rankings.</value>
+	</data>
+	<data name="ModeHelpTraining" xml:space="preserve">
+		<value>Escolha seu aerodeslizador, crie seu circuito e treine a si mesmo nas modalidades contra-relógio, distância ou sem limites.</value>
+	</data>
+	<data name="MusicVolume" xml:space="preserve">
+		<value>Volume da música</value>
+	</data>
+	<data name="New" xml:space="preserve">
+		<value>Novo</value>
+	</data>
+	<data name="NewGame" xml:space="preserve">
+		<value>Novo jogo</value>
+	</data>
+	<data name="NewRecord" xml:space="preserve">
+		<value>Novo record</value>
+	</data>
+	<data name="No" xml:space="preserve">
+		<value>Não</value>
+	</data>
+	<data name="None" xml:space="preserve">
+		<value>Nenhum</value>
+	</data>
+	<data name="Normal" xml:space="preserve">
+		<value>Normal</value>
+	</data>
+	<data name="NotificationLowTimer" xml:space="preserve">
+		<value>Pouco tempo</value>
+	</data>
+	<data name="NotificationRacingAgainst" xml:space="preserve">
+		<value>Correndo contra</value>
+	</data>
+	<data name="NotRanked" xml:space="preserve">
+		<value>Você não está classificado</value>
+	</data>
+	<data name="Options" xml:space="preserve">
+		<value>Opções</value>
+	</data>
+	<data name="PlayChallengeTitle" xml:space="preserve">
+		<value>Jogar um desafio</value>
+	</data>
+	<data name="PlayerName" xml:space="preserve">
+		<value>Nome</value>
+	</data>
+	<data name="PlayerRanking" xml:space="preserve">
+		<value>Ranking do jogador</value>
+	</data>
+	<data name="Progress" xml:space="preserve">
+		<value>Progresso:</value>
+	</data>
+	<data name="Quality" xml:space="preserve">
+		<value>Qualidade</value>
+	</data>
+	<data name="Quality0" xml:space="preserve">
+		<value>0 / Baixa</value>
+	</data>
+	<data name="Quality1" xml:space="preserve">
+		<value>1 / Média</value>
+	</data>
+	<data name="Quality2" xml:space="preserve">
+		<value>2 / Alta</value>
+	</data>
+	<data name="Quit" xml:space="preserve">
+		<value>Sair</value>
+	</data>
+	<data name="RaceType" xml:space="preserve">
+		<value>Tipo de corrida</value>
+	</data>
+	<data name="Random" xml:space="preserve">
+		<value>Aleatória</value>
+	</data>
+	<data name="Randomize" xml:space="preserve">
+		<value>Escolher aleatoriamente</value>
+	</data>
+	<data name="RandomizeRegionDifficultyShape" xml:space="preserve">
+		<value>Escolher aleatoriamente a região, a dificuldade e o terreno</value>
+	</data>
+	<data name="Rank" xml:space="preserve">
+		<value>Posto</value>
+	</data>
+	<data name="RankAdept" xml:space="preserve">
+		<value>Aprendiz</value>
+	</data>
+	<data name="RankGrandmaster" xml:space="preserve">
+		<value>Grande mestre</value>
+	</data>
+	<data name="RankMaster" xml:space="preserve">
+		<value>Mestre</value>
+	</data>
+	<data name="RankNovice" xml:space="preserve">
+		<value>Principiante</value>
+	</data>
+	<data name="RankSkilled" xml:space="preserve">
+		<value>Especialista</value>
+	</data>
+	<data name="ReachDevGhostOne" xml:space="preserve">
+		<value>Consiga {0} para desbloquear a sombra do desenvolvedor do jogo</value>
+	</data>
+	<data name="ReachNextStarOne" xml:space="preserve">
+		<value>Consiga {0} para obter uma nova estrela</value>
+	</data>
+	<data name="Record" xml:space="preserve">
+		<value>Record</value>
+	</data>
+	<data name="Refresh" xml:space="preserve">
+		<value>Atualizar</value>
+	</data>
+	<data name="Region" xml:space="preserve">
+		<value>Região</value>
+	</data>
+	<data name="Remove" xml:space="preserve">
+		<value>Remover</value>
+	</data>
+	<data name="Replace" xml:space="preserve">
+		<value>Trocar</value>
+	</data>
+	<data name="Replay" xml:space="preserve">
+		<value>Repetição</value>
+	</data>
+	<data name="Resolution" xml:space="preserve">
+		<value>Resolução</value>
+	</data>
+	<data name="Restart" xml:space="preserve">
+		<value>Reinicializar</value>
+	</data>
+	<data name="RestoreDefaultsButtonLabel" xml:space="preserve">
+		<value>Carregar valores padrão</value>
+	</data>
+	<data name="RestoreDefaultsWindowMessage" xml:space="preserve">
+		<value>Isso irá restaurar a configuração inicial padrão. Você tem a certeza que quer isso?</value>
+	</data>
+	<data name="RestoreDefaultsWindowTitle" xml:space="preserve">
+		<value>Restaurar valores padrão</value>
+	</data>
+	<data name="Resume" xml:space="preserve">
+		<value>Continuar</value>
+	</data>
+	<data name="ROTD" xml:space="preserve">
+		<value>Corrida do dia</value>
+	</data>
+	<data name="ROTDNextSession" xml:space="preserve">
+		<value>Sessão
+Seguinte</value>
+	</data>
+	<data name="ROTDRemainingTime" xml:space="preserve">
+		<value>Tempo
+Restante</value>
+	</data>
+	<data name="Search" xml:space="preserve">
+		<value>Procurar</value>
+	</data>
+	<data name="SeedFormatHelp" xml:space="preserve">
+		<value>O formato do valor de inicialização é LLDDLL onde L é uma letra e D um dígito.</value>
+	</data>
+	<data name="SeedInputLocked" xml:space="preserve">
+		<value>Este valor de inicialização está bloqueado. Desbloqueie todas as regiões e dificuldades para usar este valor de inicialização.</value>
+	</data>
+	<data name="SeedSelection" xml:space="preserve">
+		<value>Seleção de um valor de inicialização</value>
+	</data>
+	<data name="SelectColor" xml:space="preserve">
+		<value>Selecione uma cor</value>
+	</data>
+	<data name="SelectDifficulty" xml:space="preserve">
+		<value>Selecione uma dificuldade</value>
+	</data>
+	<data name="SelectGameMode" xml:space="preserve">
+		<value>Selecione um modo de jogo</value>
+	</data>
+	<data name="SelectHovercraft" xml:space="preserve">
+		<value>Selecione um aerodeslizador</value>
+	</data>
+	<data name="SelectLevel" xml:space="preserve">
+		<value>Selecione um circuito</value>
+	</data>
+	<data name="SelectRaceType" xml:space="preserve">
+		<value>Selecione um tipo de corrida</value>
+	</data>
+	<data name="SelectRegion" xml:space="preserve">
+		<value>Selecione uma região</value>
+	</data>
+	<data name="SetLevelSeed" xml:space="preserve">
+		<value>Estabeleça um valor de inicialização</value>
+	</data>
+	<data name="SfxVolume" xml:space="preserve">
+		<value>Volume dos efeitos sonoros</value>
+	</data>
+	<data name="ShareChallenge" xml:space="preserve">
+		<value>Compartilhar desafio</value>
+	</data>
+	<data name="ShareChallengeFailed" xml:space="preserve">
+		<value>Ocorreu um erro ao compartilhar o desafio. Desculpe...</value>
+	</data>
+	<data name="ShareChallengeFinished" xml:space="preserve">
+		<value>O código do desafio é {0}. Compartilhe-o com o mundo!</value>
+	</data>
+	<data name="ShareChallengeUploadWait" xml:space="preserve">
+		<value>Espere enquanto está sendo feito o upload do desafio.</value>
+	</data>
+	<data name="ShieldDelay" xml:space="preserve">
+		<value>Atraso do escudo</value>
+	</data>
+	<data name="Speed" xml:space="preserve">
+		<value>Velocidade</value>
+	</data>
+	<data name="StartRace" xml:space="preserve">
+		<value>Começar a corrida</value>
+	</data>
+	<data name="Statistics" xml:space="preserve">
+		<value>Estatísticas</value>
+	</data>
+	<data name="Summary" xml:space="preserve">
+		<value>Resumo</value>
+	</data>
+	<data name="Time" xml:space="preserve">
+		<value>Tempo</value>
+	</data>
+	<data name="TimeAttack" xml:space="preserve">
+		<value>Contra relógio</value>
+	</data>
+	<data name="Today" xml:space="preserve">
+		<value>Hoje</value>
+	</data>
+	<data name="TotalPlayer" xml:space="preserve">
+		<value>Total de jogadores</value>
+	</data>
+	<data name="Training" xml:space="preserve">
+		<value>Treino</value>
+	</data>
+	<data name="TrainingMode" xml:space="preserve">
+		<value>Modalidade Treino</value>
+	</data>
+	<data name="Trajectory" xml:space="preserve">
+		<value>Percurso</value>
+	</data>
+	<data name="TurnSpeed" xml:space="preserve">
+		<value>Velocidade de esterçamento</value>
+	</data>
+	<data name="UnlockDevGhost" xml:space="preserve">
+		<value>Você desbloqueou a sombra do desenvolvedor do jogo</value>
+	</data>
+	<data name="UnlockDifficulty" xml:space="preserve">
+		<value>Você desbloqueou a dificuldade {0}</value>
+	</data>
+	<data name="UnlockHovercraft" xml:space="preserve">
+		<value>Você desbloqueou o aerodeslizador {0}</value>
+	</data>
+	<data name="UnlockHovercraftColor" xml:space="preserve">
+		<value>Você desbloqueou a cor {0} do aerodeslizador</value>
+	</data>
+	<data name="UnlockMission" xml:space="preserve">
+		<value>Você desbloqueou uma nova missão</value>
+	</data>
+	<data name="UnlockRank" xml:space="preserve">
+		<value>Sem posto atual é {0}</value>
+	</data>
+	<data name="UnlockRegion" xml:space="preserve">
+		<value>Você bloqueou a região {0}</value>
+	</data>
+	<data name="UseChallengeCodeTitle" xml:space="preserve">
+		<value>Usar código de desafio</value>
+	</data>
+	<data name="UseCodeButton" xml:space="preserve">
+		<value>Usar código</value>
+	</data>
+	<data name="Validate" xml:space="preserve">
+		<value>Validar</value>
+	</data>
+	<data name="Video" xml:space="preserve">
+		<value>Vídeo</value>
+	</data>
+	<data name="WaitingForServer" xml:space="preserve">
+		<value>Esperando pelo servidor...</value>
+	</data>
+	<data name="Win" xml:space="preserve">
+		<value>Vitória(s)</value>
+	</data>
+	<data name="WinRate" xml:space="preserve">
+		<value>Taxa vitórias</value>
+	</data>
+	<data name="WinsChallengeDescription" xml:space="preserve">
+		<value>Vitória(s):</value>
+	</data>
+	<data name="Yes" xml:space="preserve">
+		<value>Sim</value>
+	</data>
+	<data name="Yesterday" xml:space="preserve">
+		<value>Ontem</value>
+	</data>
+	<data name="YourRank" xml:space="preserve">
+		<value>Seu posto</value>
+	</data>
+	<data name="YourRankMultiLine" xml:space="preserve">
+		<value>Seu
+Posto</value>
+	</data>
+</root>

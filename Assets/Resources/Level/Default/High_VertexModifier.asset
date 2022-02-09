@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff93da3cfa4d4a02a40354bada3782a, type: 3}
+  m_Name: High_VertexModifier
+  m_EditorClassIdentifier: 
+  _noise: {fileID: 11400000, guid: da04b9639ca044c008608d7ed665ccb1, type: 2}
+  _yScale:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: .200000003
+      inSlope: -.026687108
+      outSlope: -0
+      tangentMode: 21
+    - time: .149999991
+      value: .200000003
+      inSlope: 0
+      outSlope: 1.20000005
+      tangentMode: 21
+    - time: .399999976
+      value: .5
+      inSlope: 1.20000005
+      outSlope: 0
+      tangentMode: 5
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  _xzScale:
+    serializedVersion: 2
+    m_Curve:
+    - time: -.400000006
+      value: -.5
+      inSlope: 0
+      outSlope: .256410241
+      tangentMode: 17
+    - time: -.00999999978
+      value: -.400000006
+      inSlope: .256410241
+      outSlope: 40
+      tangentMode: 21
+    - time: .00999999978
+      value: .400000006
+      inSlope: 40
+      outSlope: .256410271
+      tangentMode: 21
+    - time: .399999976
+      value: .5
+      inSlope: .256410271
+      outSlope: 0
+      tangentMode: 5
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  _enable: 1

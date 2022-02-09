@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38122f873dcc84bcb8b897ba6ffb7507, type: 3}
+  m_Name: Desert_Mountains
+  m_EditorClassIdentifier: 
+  _enable: 1
+  _meshes:
+  - {fileID: 4300000, guid: 09d96d687b09d4f9fa7f6d97ac33df36, type: 2}
+  - {fileID: 4300000, guid: 2891668294f07426eab599e93be5849f, type: 2}
+  - {fileID: 4300000, guid: 83960773be4a549108ffc8c4741225f1, type: 2}
+  - {fileID: 4300000, guid: c4cd800e03cde4f77897a189bb47fc46, type: 2}
+  - {fileID: 4300000, guid: fc3b8f2342e624bf4b4ec62b71743bff, type: 2}
+  - {fileID: 4300000, guid: 8840d6b3a9fca4554b0ad04efa2ded51, type: 2}
+  - {fileID: 4300000, guid: b468b463e16cb425993d90294c5d6e18, type: 2}
+  - {fileID: 4300000, guid: b7b73f8ddd67e4af39998a3a422bbf52, type: 2}
+  _xScale: 480
+  _zScale: 480
+  yMinScale: 400
+  yMaxScale: 600
+  _material: {fileID: 2100000, guid: cdbb8f6cc7dce9e4d9dd90d46e8405ba, type: 2}

@@ -1,0 +1,102 @@
+fileFormatVersion: 2
+guid: 34cafb1ec1cba48548c30d4bbfd3fba7
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: TRex_Body
+    100002: TRex_LeftWing
+    100004: TRex_RightWing
+    100006: TRex_Steering
+    100008: //RootNode
+    100010: TRex_LeftWing_001
+    100012: TRex_RightWing_001
+    100014: TRex_Steering_001
+    400000: TRex_Body
+    400002: TRex_LeftWing
+    400004: TRex_RightWing
+    400006: TRex_Steering
+    400008: //RootNode
+    400010: TRex_LeftWing_001
+    400012: TRex_RightWing_001
+    400014: TRex_Steering_001
+    2300000: TRex_Body
+    2300002: TRex_LeftWing
+    2300004: TRex_RightWing
+    2300006: TRex_Steering
+    2300008: TRex_LeftWing_001
+    2300010: TRex_RightWing_001
+    2300012: TRex_Steering_001
+    3300000: TRex_Body
+    3300002: TRex_LeftWing
+    3300004: TRex_RightWing
+    3300006: TRex_Steering
+    3300008: TRex_LeftWing_001
+    3300010: TRex_RightWing_001
+    3300012: TRex_Steering_001
+    4300000: TRex_Body
+    4300002: TRex_LeftWing
+    4300004: TRex_RightWing
+    4300006: TRex_Steering
+    4300008: TRex_LeftWing_001
+    4300010: TRex_RightWing_001
+    4300012: TRex_Steering_001
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 0
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

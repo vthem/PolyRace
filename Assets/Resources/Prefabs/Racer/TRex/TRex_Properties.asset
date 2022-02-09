@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a80ac8bd12ea4ec99dc678f2c4cf0e4, type: 3}
+  m_Name: TRex_Properties
+  m_EditorClassIdentifier: 
+  _prefab: {fileID: 158196, guid: 810d3a64c90ac4d65817adc98d901d80, type: 2}
+  _hovercraftName: T-Rex
+  _id: 1
+  _speed: 700
+  _boostSpeed: 1020
+  _acceleration: 78
+  _boostAcceleration: 110
+  _turnSpeed: 114.800003
+  _turnEfficiency: .0500000007
+  _angularDrag: 5
+  _grip: 1
+  _shieldDelay: 8.39999962
+  _brake: 66

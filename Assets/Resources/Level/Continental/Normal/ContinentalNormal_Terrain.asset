@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e693ba315ec74fc890db1c6fb21f1dd, type: 3}
+  m_Name: ContinentalNormal_Terrain
+  m_EditorClassIdentifier: 
+  _groundLayerName: TerrainGround
+  _heightLayerName: TerrainHeight
+  _geometry:
+    _chunkSizeXZ: 480
+    _chunkSizeY: 160
+    _borderSize: 30
+    _borderHeight: 10
+    _blockSize: 10
+    _tunnelHeight: 3
+    _tunnelWidth: 3
+    _numberOfGroundBlock: 1
+    _heightDataLayer: {fileID: 11400000, guid: 4284b702ad9a8de4ba59580a7a064bfa, type: 2}
+    _colliderLayer: 0
+    _weightModifier:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 100
+        inSlope: 0
+        outSlope: -4.125
+        tangentMode: 69
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 24
+        value: 1
+        inSlope: -4.125
+        outSlope: 0
+        tangentMode: 5
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  _enableVertexModifiers: 1
+  _vertexModifers:
+  - {fileID: 11400000, guid: 19cef3675c94644309c9b0ecf66eab82, type: 2}
+  - {fileID: 11400000, guid: 7ceeaa9ddfca64f6b890681419f07ab7, type: 2}
+  _colorProfile: {fileID: 11400000, guid: 9c3cc206b69784c66a68a92f800319c0, type: 2}
+  _material: {fileID: 2100000, guid: cdbb8f6cc7dce9e4d9dd90d46e8405ba, type: 2}

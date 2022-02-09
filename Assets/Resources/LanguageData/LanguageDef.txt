@@ -1,0 +1,6 @@
+de-DE:Language.de-DE
+en:Language.en
+es-ES:Language.es-ES
+fr-FR:Language.fr-FR
+it-IT:Language.it-IT
+pt-BR:Language.pt-BR

@@ -1,0 +1,17 @@
+{
+    "name": "PolyRace.LevelGen",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ca1ae654c4c0b364fada40d0e2024fb0",
+        "GUID:5cddb16e5af00994ead5bd8e503d8f1d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
