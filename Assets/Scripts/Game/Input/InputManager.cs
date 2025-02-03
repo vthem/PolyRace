@@ -162,7 +162,7 @@ namespace Game.Input
 			{
 				return true;
 			}
-			if (Gamepad.current != null & Gamepad.current.IsPressed())
+			if (Gamepad.current != null && Gamepad.current.IsPressed())
 			{
 				return true;
 			}
